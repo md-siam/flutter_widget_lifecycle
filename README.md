@@ -2,7 +2,7 @@
 
 <img align="right" src="assets/playstore.png" height="190"></img>
 
-<p>
+<p align="justify">
     Like app lifecycle, widgets in flutter also have lifecycle methods associated with them. In this repo, we will take a look at Widget lifecycle methods in flutter. Everything in Flutter is a widget, so before thinking about Lifecycle, we should think about Widgets in Flutter.<br> Flutter has majorly two types of widgets:
 </p>
 
@@ -78,6 +78,7 @@ the current widget with a new one.
 
 # Video
 
-<p>For for information regarding the Widget Lifecycle, watch this video</p>
- 
-[YouTube](https://www.youtube.com/watch?v=FL_U8ORv-2Q)
+<p>
+    For more information regarding the Widget Lifecycle, watch this video from:
+    <a href="https://www.youtube.com/watch?v=FL_U8ORv-2Q" target="_blank">YouTube</a>
+</p>
