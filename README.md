@@ -13,7 +13,7 @@
 
 ## Stages Of Widget Lifecycle
 
-<img align="center" src="screenshots/flow.png" height="500"></img>
+<p align="center"><img src="screenshots/flow.png"></p>
 
 Widgets in Flutter have following lifecycle methods associated with them:
 
@@ -77,6 +77,8 @@ the current widget with a new one.
 ```
 
 # Video
+
+<p align="center"><img src="screenshots/demo.gif"></p>
 
 <p>
     For more information regarding the Widget Lifecycle, watch this video from:
