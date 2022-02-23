@@ -42,22 +42,23 @@ didChangeDependencies(), didUpdateWidget() or when the state is changed via call
 4. didChangeDependencies :
 
 ```
-This method is called immediately after initState() and when dependency of the State object 
+This method is called immediately after initState() and when dependency of the State object
 changes via InheritedWidget.
 ```
 
 5. didUpdateWidget :
 
 ```
-This method is called whenever the widget configuration changes. A typical case is when a parent 
+This method is called whenever the widget configuration changes. A typical case is when a parent
 passes some variable to the children widget via the constructor.
 ```
 
 6. setState :
 
 ```
-The setState() method illuminates the framework that the internal state of this item has changed 
-in a manner that may affect the UI which makes the structure plan a build for this State of the object.
+The setState() method illuminates the framework that the internal state of this item has changed
+in a manner that may affect the UI which makes the structure plan a build for this State of the
+object.
 ```
 
 7. deactivate :
@@ -69,9 +70,10 @@ This method is called when the object is removed from the tree.
 8. dispose :
 
 ```
-This method is called when this object is removed from the tree permanently. Here we should release 
-any resources retained by this object like stopping animation for instance. One example when this 
-method is called is while using the pushReplacement() of the Navigator to replace the current widget with a new one.
+This method is called when this object is removed from the tree permanently. Here we should release
+any resources retained by this object like stopping animation for instance. One example when this
+method is called is while using the pushReplacement() of the Navigator to replace the
+current widget with a new one.
 ```
 
 # Video
