@@ -70,10 +70,9 @@ This method is called when the object is removed from the tree.
 8. dispose :
 
 ```
-This method is called when this object is removed from the tree permanently. Here we should release
-any resources retained by this object like stopping animation for instance. One example when this
-method is called is while using the pushReplacement() of the Navigator to replace the
-current widget with a new one.
+This method is called when this object is removed from the tree permanently. Here we should
+release any resources retained by this object like stopping animation for instance. One example when
+this method is called is while using the pushReplacement() of the Navigator to replace the current widget with a new one.
 ```
 
 # Video
