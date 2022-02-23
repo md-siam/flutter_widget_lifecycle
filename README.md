@@ -20,8 +20,8 @@ Widgets in Flutter have following lifecycle methods associated with them:
 1. createState :
 
 ```
-This method is called when we create another Stateful Widget. It is an obligatory strategy. The createState()
-returns a case of a State-related with it.
+This method is called when we create another Stateful Widget. It is an obligatory strategy.
+The createState() returns a case of a State-related with it.
 ```
 
 2. initState :
@@ -42,8 +42,8 @@ didChangeDependencies(), didUpdateWidget() or when the state is changed via call
 4. didChangeDependencies :
 
 ```
-This method is called immediately after initState() and when dependency of the State object changes
-via InheritedWidget.
+This method is called immediately after initState() and when dependency of the State object 
+changes via InheritedWidget.
 ```
 
 5. didUpdateWidget :
@@ -69,8 +69,8 @@ This method is called when the object is removed from the tree.
 8. dispose :
 
 ```
-This method is called when this object is removed from the tree permanently. Here we should release any
-resources retained by this object like stopping animation for instance. One example when this method is called
+This method is called when this object is removed from the tree permanently. Here we should release 
+any resources retained by this object like stopping animation for instance. One example when this method is called
 is while using the pushReplacement() of the Navigator to replace the current widget with a new one.
 ```
 
