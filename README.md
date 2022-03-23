@@ -27,8 +27,8 @@ The createState() returns a case of a State-related with it.
 2. initState :
 
 ```
-This method is called when the object is inserted into the widget tree.This will be called exactly
-once per State object. Here we can initialize our variables, objects, streams,
+This method is called when the object is inserted into the widget tree.This will be called
+exactly once per State object. Here we can initialize our variables, objects, streams,
 AnimationController, and so on.
 ```
 
