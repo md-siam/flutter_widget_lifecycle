@@ -20,14 +20,14 @@ Widgets in Flutter have following lifecycle methods associated with them:
 1. createState :
 
 ```
-This method is called when we create another Stateful Widget. It is an obligatory strategy.
+This method is called when we create an Stateful Widget. It is an obligatory strategy.
 The createState() returns a case of a State-related with it.
 ```
 
 2. initState :
 
 ```
-This method is called when this object is inserted into the tree.This will be called exactly
+This method is called when the object is inserted into the widget tree.This will be called exactly
 once per State object. Here we can initialize our variables, objects, streams,
 AnimationController, and so on.
 ```
