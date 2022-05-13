@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_lifecycle/widget/number_widget.dart';
+
+import '../widget/number_widget.dart';
 
 class FirstPage extends StatefulWidget {
   const FirstPage({Key? key}) : super(key: key);
